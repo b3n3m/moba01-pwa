@@ -1,9 +1,9 @@
 const staticDevCoffee = "dev-coffee-site-v1";
 const assets = [
   "/moba01-pwa/",
-  "/index.html",
-  "/css/style.css",
-  "/js/app.js",
+  "index.html",
+  "css/style.css",
+  "js/app.js",
   "/images/coffee1.jpg",
   "/images/coffee2.jpg",
   "/images/coffee3.jpg",
