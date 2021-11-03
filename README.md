@@ -18,3 +18,4 @@ In this article, we are going to build a PWA from scratch with HTML, CSS, and Ja
 
 You can check it out live [here](https://devcoffee-pwa.netlify.com/).
 
+##Some Information
