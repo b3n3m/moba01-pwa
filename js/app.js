@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", showCoffees);
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("./html/serviceWorker.js")
+      .register("./html/serviceWorker.js", {scope: "/moba01-pwa/"})
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err));
   });
