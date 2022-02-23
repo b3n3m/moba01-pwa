@@ -2,7 +2,7 @@
   "name": "Dev'Coffee",
   "short_name": "DevCoffee",
   "start_url": "index.html",
-  "scope": "/moba01-pwa/images",
+  "scope": "/moba01-pwa/images/",
   "display": "standalone",
   "background_color": "#fdfdfd",
   "theme_color": "#db4938",
