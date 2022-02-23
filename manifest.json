@@ -1,7 +1,7 @@
 {
   "name": "Dev'Coffee",
   "short_name": "DevCoffee",
-  "start_url": "index.html",
+  "start_url": "./images/index.html",
   "scope": "./images/",
   "display": "standalone",
   "background_color": "#fdfdfd",
