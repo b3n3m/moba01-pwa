@@ -2,11 +2,11 @@ const container = document.querySelector(".container");
 const coffees = [
   {
     name: "Perspiciatis",
-    image: "../images/coffee1.jpg"
+    image: "coffee1.jpg"
   },
   {
     name: "Voluptatem",
-    image: "../images/coffee2.jpg"
+    image: "coffee2.jpg"
   },
   {
     name: "Explicabo",
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", showCoffees);
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
     navigator.serviceWorker
-      .register("./html/serviceWorker.js", {scope: "/moba01-pwa/"})
+      .register("serviceWorker.js", {scope: "/moba01-pwa/images"})
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err));
   });
